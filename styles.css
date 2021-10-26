@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.header__title {
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 40px;
+    font-weight: 400;
+    color: #00A0BE;
+    text-transform: uppercase;
+    margin: 0 0 40px 0;
+}
+
+.title__dot {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-color: #D7008F;
+    margin-left: 12px;
+    vertical-align: baseline;
+}
