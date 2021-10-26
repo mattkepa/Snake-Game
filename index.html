@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200;400&display=swap" rel="stylesheet">
+    <script src="./classes.js" defer></script>
     <script src="./app.js" defer></script> 
 </head>
 <body>
@@ -15,7 +16,10 @@
         <section class="header">
             <h1 class="header__title">Snake<span class="title__dot"></span></h1>
         </section>
-        <canvas id="game" width="500" height="500"></canvas>
+        <section class="info-display info-display--hidden">
+            <p class="info--game-over">Game <span>Over!</span></p>
+        </section>
+        <canvas id="game" width="400" height="400"></canvas>
     </main>
 </body>
 </html>

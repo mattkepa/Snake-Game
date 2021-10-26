@@ -16,9 +16,9 @@ body {
     font-family: 'Noto Sans Mono', monospace;
     font-size: 40px;
     font-weight: 400;
-    color: #00A0BE;
+    color: #1DA9A2;
     text-transform: uppercase;
-    margin: 0 0 40px 0;
+    margin: 0 0 20px 0;
 }
 
 .title__dot {
@@ -28,4 +28,24 @@ body {
     background-color: #D7008F;
     margin-left: 12px;
     vertical-align: baseline;
+}
+
+.info-display {
+    margin-bottom: 10px;
+}
+
+.info--game-over {
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 200;
+    margin: 0;
+}
+
+.info--game-over > span {
+    font-weight: 400;
+}
+
+.info-display--hidden {
+    visibility: hidden;
 }
